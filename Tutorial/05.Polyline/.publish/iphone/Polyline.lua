@@ -13,11 +13,16 @@ function setup()
 	sysCommand(pPoly2 , UI_POLYLINE_SET_POINT, 1, 400, 200)
 	
 	count = 0
+    lasttime = os.time();
 end
 
 
 function execute(deltaT)
 	count = count + 1
+    if os.time() - lasttime > 1 then
+        lasttime = os.time()
+        syslog(count..","..deltaT..","..lasttime)
+    end
 	if count == 20 then
 		syslog(string.format("TASK alpha"))
 		prop = TASK_getProperty(pPoly1)

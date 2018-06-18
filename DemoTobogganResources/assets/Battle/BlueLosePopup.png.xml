@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KLBImageEditor_Plugin id="8cf30e2f-b03d-4c58-9f18-e3afc2f8e242">
+  <ProjectPropertyModel>
+    <Version>0.2.0</Version>
+    <ProjectFile>BlueLosePopup.png.xml</ProjectFile>
+    <ProjectFileRelativeDir>assets/Battle/</ProjectFileRelativeDir>
+    <SaveDate>2018-06-17T22:49:28</SaveDate>
+    <Comment />
+    <EditState>true</EditState>
+    <VisibleImage>true</VisibleImage>
+    <VisiblePolygon>false</VisiblePolygon>
+    <VisibleMask>false</VisibleMask>
+    <VisibleBoundBox>false</VisibleBoundBox>
+    <VisibleGrid>true</VisibleGrid>
+    <VisibleProperty>true</VisibleProperty>
+  </ProjectPropertyModel>
+  <ContainerPropertyModel />
+  <ImageModel>
+    <isAdditive>false</isAdditive>
+    <ImgFileSize>7603</ImgFileSize>
+    <ImgFileDate>2017/12/4 11:42:30</ImgFileDate>
+    <ImgPathName>assets/Battle/BlueLosePopup.png</ImgPathName>
+    <PriorityOffset>0</PriorityOffset>
+    <ImageType>Scale9</ImageType>
+    <ImageTypeParams>
+      <anyType xmlns:q1="http://www.w3.org/2001/XMLSchema" d3p1:type="q1:int" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">38</anyType>
+      <anyType xmlns:q2="http://www.w3.org/2001/XMLSchema" d3p1:type="q2:int" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">38</anyType>
+      <anyType xmlns:q3="http://www.w3.org/2001/XMLSchema" d3p1:type="q3:int" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">38</anyType>
+      <anyType xmlns:q4="http://www.w3.org/2001/XMLSchema" d3p1:type="q4:int" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">77</anyType>
+      <anyType xmlns:q5="http://www.w3.org/2001/XMLSchema" d3p1:type="q5:int" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">77</anyType>
+      <anyType xmlns:q6="http://www.w3.org/2001/XMLSchema" d3p1:type="q6:int" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">78</anyType>
+    </ImageTypeParams>
+    <VerticesClockwise>true</VerticesClockwise>
+    <Center>
+      <X>0</X>
+      <Y>0</Y>
+    </Center>
+    <Width>114</Width>
+    <Height>232</Height>
+    <VertexPostProcessMode>0</VertexPostProcessMode>
+    <BoundingBox>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>114</Width>
+        <Height>232</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>114</Width>
+      <Height>232</Height>
+    </BoundingBox>
+    <Vertices>
+      <PointF>
+        <X>0</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>114</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>114</X>
+        <Y>232</Y>
+      </PointF>
+      <PointF>
+        <X>0</X>
+        <Y>232</Y>
+      </PointF>
+    </Vertices>
+    <Indices>AAECAw==</Indices>
+    <ImgAlphaType>TYPE_ALPHA_8BIT</ImgAlphaType>
+    <MaskCompress>true</MaskCompress>
+    <MaskX>0</MaskX>
+    <MaskY>0</MaskY>
+    <MaskWidth>114</MaskWidth>
+    <MaskHeight>232</MaskHeight>
+    <Mask>Z1AB</Mask>
+  </ImageModel>
+</KLBImageEditor_Plugin>

@@ -1,4 +1,4 @@
-﻿/* 
+/* 
    Copyright 2013 KLab Inc.
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,7 +22,11 @@
 #include "CSockWriteStream.h"
 #include "CSockReadStream.h"
 
-
+extern "C" {
+    int write(int,void*,int);
+    int read(int,void*,int);
+    
+};
 // CSockWriteStream は、CSockReadStream が CSockReadStream::create() によって
 // 生成されたタイミングで作られる、書き込み(送出)用インタフェースとなるクラス。
 // socket は基本的に書き込み可能なストリームなので、必ず生成され、内部的に保持される。

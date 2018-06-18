@@ -1,4 +1,4 @@
-﻿/* 
+/* 
    Copyright 2013 KLab Inc.
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,6 +33,10 @@
 #include "CSockReadStream.h"
 #include "CSockWriteStream.h"
 
+extern "C"{
+    int read(int,void*,int);
+    int close(int);
+}
 
 CSockReadStream::CSockReadStream() : m_writeStream(0), m_eStat(NORMAL), m_fd(0), m_lastPos(0), m_getPos(0) {}
 CSockReadStream::~CSockReadStream()

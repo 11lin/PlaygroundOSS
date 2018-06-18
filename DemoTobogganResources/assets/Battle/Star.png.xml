@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KLBImageEditor_Plugin id="ccf7f900-5845-4972-9c17-7eb66abdc982">
+  <ProjectPropertyModel>
+    <Version>0.2.0</Version>
+    <ProjectFile>Star.png.xml</ProjectFile>
+    <ProjectFileRelativeDir>assets/Battle/</ProjectFileRelativeDir>
+    <SaveDate>2018-06-18T18:09:31</SaveDate>
+    <Comment />
+    <EditState>true</EditState>
+    <VisibleImage>true</VisibleImage>
+    <VisiblePolygon>false</VisiblePolygon>
+    <VisibleMask>false</VisibleMask>
+    <VisibleBoundBox>false</VisibleBoundBox>
+    <VisibleGrid>true</VisibleGrid>
+    <VisibleProperty>true</VisibleProperty>
+  </ProjectPropertyModel>
+  <ContainerPropertyModel />
+  <ImageModel>
+    <isAdditive>false</isAdditive>
+    <ImgFileSize>4284</ImgFileSize>
+    <ImgFileDate>2017/12/4 11:42:26</ImgFileDate>
+    <ImgPathName>assets/Battle/Star.png</ImgPathName>
+    <PriorityOffset>0</PriorityOffset>
+    <ImageType>Default</ImageType>
+    <ImageTypeParams />
+    <VerticesClockwise>true</VerticesClockwise>
+    <Center>
+      <X>37</X>
+      <Y>37</Y>
+    </Center>
+    <Width>75</Width>
+    <Height>75</Height>
+    <VertexPostProcessMode>0</VertexPostProcessMode>
+    <BoundingBox>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>75</Width>
+        <Height>75</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>75</Width>
+      <Height>75</Height>
+    </BoundingBox>
+    <Vertices>
+      <PointF>
+        <X>0</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>75</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>75</X>
+        <Y>75</Y>
+      </PointF>
+      <PointF>
+        <X>0</X>
+        <Y>75</Y>
+      </PointF>
+    </Vertices>
+    <Indices>AAECAw==</Indices>
+    <ImgAlphaType>TYPE_ALPHA_8BIT</ImgAlphaType>
+    <MaskCompress>true</MaskCompress>
+    <MaskX>0</MaskX>
+    <MaskY>0</MaskY>
+    <MaskWidth>75</MaskWidth>
+    <MaskHeight>75</MaskHeight>
+    <Mask>FfkB</Mask>
+  </ImageModel>
+</KLBImageEditor_Plugin>

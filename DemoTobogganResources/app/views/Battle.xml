@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KLBUIEditor_Plugin id="1efca204-20f9-4f99-8550-e169f5f3ab39" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <DrawingAllNodesClickableRegion>true</DrawingAllNodesClickableRegion>
+  <DrawingFingerNode>true</DrawingFingerNode>
+  <DrawingGrid>true</DrawingGrid>
+  <DrawingNodeClipRegion>true</DrawingNodeClipRegion>
+  <DrawingNodeName>true</DrawingNodeName>
+  <FormBounds xmlns:d1p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+    <d1p1:height>606</d1p1:height>
+    <d1p1:width>1080</d1p1:width>
+    <d1p1:x>245</d1p1:x>
+    <d1p1:y>-7</d1p1:y>
+  </FormBounds>
+  <GridSize>10</GridSize>
+  <GuideForFourSplit>false</GuideForFourSplit>
+  <GuideForMargin>false</GuideForMargin>
+  <GuideForThreeSplit>false</GuideForThreeSplit>
+  <LayoutPpi>326</LayoutPpi>
+  <LayoutScale>0.5</LayoutScale>
+  <LayoutSize xmlns:d1p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+    <d1p1:height>1136</d1p1:height>
+    <d1p1:width>640</d1p1:width>
+  </LayoutSize>
+  <RootNode>
+    <name>root</name>
+    <x>0</x>
+    <y>0</y>
+    <priority>0</priority>
+    <sub>
+      <UINode>
+        <name>task_scale9</name>
+        <x>0</x>
+        <y>0</y>
+        <priority>1000</priority>
+        <class>task_scale9</class>
+        <default>assets/Battle/GreenHead9Scale.png.imag</default>
+        <width>640</width>
+        <height>101</height>
+        <_x0040_Publishable>true</_x0040_Publishable>
+        <_x0040_CommonAssets xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d4p1:string>assets/Battle/GreenHead9Scale.png</d4p1:string>
+        </_x0040_CommonAssets>
+      </UINode>
+      <UINode>
+        <name>node</name>
+        <x>22</x>
+        <y>19</y>
+        <priority>1001</priority>
+        <default>assets/Battle/Clock.png.imag</default>
+        <_x0040_Publishable>true</_x0040_Publishable>
+        <xscale>0.5</xscale>
+        <yscale>0.5</yscale>
+        <_x0040_CommonAssets xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d4p1:string>assets/Battle/Clock.png</d4p1:string>
+        </_x0040_CommonAssets>
+        <rotation>0</rotation>
+      </UINode>
+      <UINode>
+        <name>lblTime</name>
+        <x>80</x>
+        <y>51</y>
+        <priority>1001</priority>
+        <class>label</class>
+        <text>999999</text>
+        <fontname></fontname>
+        <fontsize>30</fontsize>
+        <_x0023_color xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">-13421773</_x0023_color>
+        <width>154</width>
+        <height>44</height>
+        <_x0040_Publishable>true</_x0040_Publishable>
+        <xscale>1</xscale>
+        <yscale>1</yscale>
+        <rotation>0</rotation>
+        <_x0023_align>4</_x0023_align>
+      </UINode>
+      <UINode>
+        <name>lblScore</name>
+        <x>440</x>
+        <y>50</y>
+        <priority>1001</priority>
+        <class>label</class>
+        <text>111111</text>
+        <fontname></fontname>
+        <fontsize>30</fontsize>
+        <_x0023_color xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">-13421773</_x0023_color>
+        <width>146</width>
+        <height>44</height>
+        <_x0040_Publishable>true</_x0040_Publishable>
+        <xscale>1</xscale>
+        <yscale>1</yscale>
+        <rotation>0</rotation>
+        <_x0023_align>4</_x0023_align>
+      </UINode>
+      <UINode>
+        <name>node</name>
+        <x>361</x>
+        <y>43</y>
+        <priority>1002</priority>
+        <default>assets/Battle/Star.png.imag</default>
+        <_x0040_Publishable>true</_x0040_Publishable>
+        <xscale>1</xscale>
+        <yscale>1</yscale>
+        <_x0040_CommonAssets xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d4p1:string>assets/Battle/Star.png</d4p1:string>
+        </_x0040_CommonAssets>
+        <rotation>0</rotation>
+      </UINode>
+      <UINode>
+        <name>loseNode</name>
+        <x>0</x>
+        <y>180</y>
+        <priority>1500</priority>
+        <sub>
+          <UINode>
+            <name>dialgmask</name>
+            <x>-190</x>
+            <y>-360</y>
+            <priority>1501</priority>
+            <class>task_scale9</class>
+            <default>assets/Battle/DialogMask.png.imag</default>
+            <width>980</width>
+            <height>1501</height>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <_x0040_CommonAssets xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d6p1:string>assets/Battle/DialogMask.png</d6p1:string>
+            </_x0040_CommonAssets>
+          </UINode>
+          <UINode>
+            <name>dialgmask</name>
+            <x>-190</x>
+            <y>-360</y>
+            <priority>1501</priority>
+            <class>task_scale9</class>
+            <default>assets/Battle/DialogMask.png.imag</default>
+            <width>980</width>
+            <height>1501</height>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <_x0040_CommonAssets xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d6p1:string>assets/Battle/DialogMask.png</d6p1:string>
+            </_x0040_CommonAssets>
+          </UINode>
+          <UINode>
+            <name>task_scale9</name>
+            <x>0</x>
+            <y>210</y>
+            <priority>1502</priority>
+            <class>task_scale9</class>
+            <default>assets/Battle/BlueLosePopup.png.imag</default>
+            <width>638</width>
+            <height>612</height>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <_x0040_CommonAssets xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d6p1:string>assets/Battle/BlueLosePopup.png</d6p1:string>
+            </_x0040_CommonAssets>
+          </UINode>
+          <UINode>
+            <name>node</name>
+            <x>90</x>
+            <y>150</y>
+            <priority>1503</priority>
+            <default>assets/Battle/Flag.png.imag</default>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <xscale>2</xscale>
+            <yscale>2</yscale>
+            <_x0040_CommonAssets xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d6p1:string>assets/Battle/Flag.png</d6p1:string>
+            </_x0040_CommonAssets>
+            <rotation>0</rotation>
+          </UINode>
+          <UINode>
+            <name>button</name>
+            <x>410</x>
+            <y>600</y>
+            <priority>1503</priority>
+            <sx>0</sx>
+            <sy>0</sy>
+            <sw>196</sw>
+            <sh>196</sh>
+            <class>button</class>
+            <onclick>onClickReplay</onclick>
+            <default>assets/Battle/RightButton.png.imag</default>
+            <select>assets/Battle/RightButton.png.imag</select>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <xscale>1</xscale>
+            <yscale>1</yscale>
+            <_x0040_CommonAssets xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d6p1:string>assets/Battle/RightButton.png</d6p1:string>
+              <d6p1:string i:nil="true" />
+              <d6p1:string>assets/Battle/RightButton.png</d6p1:string>
+              <d6p1:string i:nil="true" />
+              <d6p1:string i:nil="true" />
+              <d6p1:string i:nil="true" />
+            </_x0040_CommonAssets>
+            <rotation>0</rotation>
+          </UINode>
+          <UINode>
+            <name>button</name>
+            <x>90</x>
+            <y>680</y>
+            <priority>1504</priority>
+            <sx>0</sx>
+            <sy>0</sy>
+            <sw>340</sw>
+            <sh>238</sh>
+            <class>button</class>
+            <onclick>onClickReturn</onclick>
+            <default>assets/Battle/Arrow2.png.imag</default>
+            <select>assets/Battle/Arrow.png.imag</select>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <xscale>0.5</xscale>
+            <yscale>0.5</yscale>
+            <_x0040_CommonAssets xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d6p1:string>assets/Battle/Arrow2.png</d6p1:string>
+              <d6p1:string i:nil="true" />
+              <d6p1:string>assets/Battle/Arrow.png</d6p1:string>
+              <d6p1:string i:nil="true" />
+              <d6p1:string i:nil="true" />
+              <d6p1:string i:nil="true" />
+            </_x0040_CommonAssets>
+            <rotation>0</rotation>
+          </UINode>
+          <UINode>
+            <name>node</name>
+            <x>260</x>
+            <y>340</y>
+            <priority>1504</priority>
+            <default>assets/Battle/Skull.png.imag</default>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <xscale>1</xscale>
+            <yscale>1</yscale>
+            <_x0040_CommonAssets xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d6p1:string>assets/Battle/Skull.png</d6p1:string>
+            </_x0040_CommonAssets>
+            <rotation>0</rotation>
+          </UINode>
+          <UINode>
+            <name>label</name>
+            <x>320</x>
+            <y>220</y>
+            <priority>15005</priority>
+            <class>label</class>
+            <text>GAME OVER</text>
+            <fontname></fontname>
+            <fontsize>40</fontsize>
+            <_x0023_color xmlns:d6p1="http://www.w3.org/2001/XMLSchema" i:type="d6p1:int">-13421773</_x0023_color>
+            <width>220</width>
+            <height>74</height>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <xscale>1</xscale>
+            <yscale>1</yscale>
+            <rotation>0</rotation>
+            <_x0023_align>5</_x0023_align>
+          </UINode>
+          <UINode>
+            <name>lblDlgCurrent</name>
+            <x>290</x>
+            <y>550</y>
+            <priority>15005</priority>
+            <class>label</class>
+            <text>x99999</text>
+            <fontname></fontname>
+            <fontsize>25</fontsize>
+            <_x0023_color xmlns:d6p1="http://www.w3.org/2001/XMLSchema" i:type="d6p1:int">-13421773</_x0023_color>
+            <width>214</width>
+            <height>64</height>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <xscale>1</xscale>
+            <yscale>1</yscale>
+            <rotation>0</rotation>
+            <_x0023_align>4</_x0023_align>
+          </UINode>
+          <UINode>
+            <name>node</name>
+            <x>250</x>
+            <y>540</y>
+            <priority>1505</priority>
+            <default>assets/Battle/Star.png.imag</default>
+            <_x0040_Publishable>true</_x0040_Publishable>
+            <_x0040_DesignRectangle xmlns:d6p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+              <d6p1:height>75</d6p1:height>
+              <d6p1:width>73</d6p1:width>
+              <d6p1:x>0</d6p1:x>
+              <d6p1:y>0</d6p1:y>
+            </_x0040_DesignRectangle>
+            <xscale>1</xscale>
+            <yscale>1</yscale>
+            <_x0040_CommonAssets xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d6p1:string>assets/Battle/Star.png</d6p1:string>
+            </_x0040_CommonAssets>
+            <rotation>0</rotation>
+          </UINode>
+        </sub>
+        <_x0040_Publishable>true</_x0040_Publishable>
+        <xscale>1</xscale>
+        <yscale>1</yscale>
+        <_x0040_CommonAssets xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d4p1:string i:nil="true" />
+        </_x0040_CommonAssets>
+        <rotation>0</rotation>
+      </UINode>
+    </sub>
+    <width>640</width>
+    <height>1136</height>
+    <_x0040_Publishable>true</_x0040_Publishable>
+    <_x0040_CommonAssets xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d2p1:string i:nil="true" />
+    </_x0040_CommonAssets>
+  </RootNode>
+  <ServerApiGroup>[ServerAPI]</ServerApiGroup>
+  <WindowState>Normal</WindowState>
+</KLBUIEditor_Plugin>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KLBImageEditor_Plugin id="aaa81feb-f54d-41b6-9013-3f6fb6320cf7">
+  <ProjectPropertyModel>
+    <Version>0.2.0</Version>
+    <ProjectFile>BulletYellow.png.xml</ProjectFile>
+    <ProjectFileRelativeDir>assets/Battle/</ProjectFileRelativeDir>
+    <SaveDate>2018-06-18T18:44:35</SaveDate>
+    <Comment />
+    <EditState>true</EditState>
+    <VisibleImage>true</VisibleImage>
+    <VisiblePolygon>false</VisiblePolygon>
+    <VisibleMask>false</VisibleMask>
+    <VisibleBoundBox>false</VisibleBoundBox>
+    <VisibleGrid>true</VisibleGrid>
+    <VisibleProperty>true</VisibleProperty>
+  </ProjectPropertyModel>
+  <ContainerPropertyModel />
+  <ImageModel>
+    <isAdditive>false</isAdditive>
+    <ImgFileSize>13781</ImgFileSize>
+    <ImgFileDate>2017/12/4 11:42:26</ImgFileDate>
+    <ImgPathName>assets/Battle/BulletYellow.png</ImgPathName>
+    <PriorityOffset>0</PriorityOffset>
+    <ImageType>Default</ImageType>
+    <ImageTypeParams />
+    <VerticesClockwise>true</VerticesClockwise>
+    <Center>
+      <X>75</X>
+      <Y>70</Y>
+    </Center>
+    <Width>150</Width>
+    <Height>141</Height>
+    <VertexPostProcessMode>0</VertexPostProcessMode>
+    <BoundingBox>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>150</Width>
+        <Height>141</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>150</Width>
+      <Height>141</Height>
+    </BoundingBox>
+    <Vertices>
+      <PointF>
+        <X>0</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>150</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>150</X>
+        <Y>141</Y>
+      </PointF>
+      <PointF>
+        <X>0</X>
+        <Y>141</Y>
+      </PointF>
+    </Vertices>
+    <Indices>AAECAw==</Indices>
+    <ImgAlphaType>TYPE_ALPHA_8BIT</ImgAlphaType>
+    <MaskCompress>true</MaskCompress>
+    <MaskX>0</MaskX>
+    <MaskY>0</MaskY>
+    <MaskWidth>150</MaskWidth>
+    <MaskHeight>141</MaskHeight>
+    <Mask>Up4B</Mask>
+  </ImageModel>
+</KLBImageEditor_Plugin>

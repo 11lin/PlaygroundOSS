@@ -271,6 +271,11 @@
 		8EFEBE8615FEEAF3003EB0DF /* CKLBPauseCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EFEBE8415FEEAF3003EB0DF /* CKLBPauseCtrl.cpp */; };
 		B0A50A80153425AE008CCF28 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A50A7F153425AE008CCF28 /* Default@2x.png */; };
 		B1B806D7152C416300A8717A /* CKLBUISimpleItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1B806D5152C416300A8717A /* CKLBUISimpleItem.cpp */; };
+		BF0CE0EF20D696B800CDA150 /* app in Resources */ = {isa = PBXBuildFile; fileRef = BF0CE0EA20D696B800CDA150 /* app */; };
+		BF0CE0F020D696B800CDA150 /* AlexBrush-Regular-OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF0CE0EB20D696B800CDA150 /* AlexBrush-Regular-OTF.otf */; };
+		BF0CE0F120D696B800CDA150 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = BF0CE0EC20D696B800CDA150 /* assets */; };
+		BF0CE0F220D696B800CDA150 /* start.lua in Resources */ = {isa = PBXBuildFile; fileRef = BF0CE0ED20D696B800CDA150 /* start.lua */; };
+		BF0CE0F320D696B800CDA150 /* Alex Brush SIL OFL Font License 1.1.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF0CE0EE20D696B800CDA150 /* Alex Brush SIL OFL Font License 1.1.txt */; };
 		FC6CF6F116DEF37B0098802F /* encryptFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC6CF6F016DEF37B0098802F /* encryptFile.cpp */; };
 		FCCFA67816A933F1001FAE7B /* glWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCFA67616A933F1001FAE7B /* glWrapper.cpp */; };
 		FCD31D7516AFC6CA00BBDC8F /* CiOSWidget.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCD31D7416AFC6CA00BBDC8F /* CiOSWidget.mm */; };
@@ -847,6 +852,11 @@
 		B0A50A7F153425AE008CCF28 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B1B806D5152C416300A8717A /* CKLBUISimpleItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CKLBUISimpleItem.cpp; sourceTree = "<group>"; };
 		B1B806D6152C416300A8717A /* CKLBUISimpleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKLBUISimpleItem.h; sourceTree = "<group>"; };
+		BF0CE0EA20D696B800CDA150 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; name = app; path = ../../../../../DemoTobogganResources/.publish/iphone/app; sourceTree = "<group>"; };
+		BF0CE0EB20D696B800CDA150 /* AlexBrush-Regular-OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AlexBrush-Regular-OTF.otf"; path = "../../../../../DemoTobogganResources/.publish/iphone/AlexBrush-Regular-OTF.otf"; sourceTree = "<group>"; };
+		BF0CE0EC20D696B800CDA150 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../../../../DemoTobogganResources/.publish/iphone/assets; sourceTree = "<group>"; };
+		BF0CE0ED20D696B800CDA150 /* start.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.lua; path = ../../../../../DemoTobogganResources/.publish/iphone/start.lua; sourceTree = "<group>"; };
+		BF0CE0EE20D696B800CDA150 /* Alex Brush SIL OFL Font License 1.1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Alex Brush SIL OFL Font License 1.1.txt"; path = "../../../../../DemoTobogganResources/.publish/iphone/Alex Brush SIL OFL Font License 1.1.txt"; sourceTree = "<group>"; };
 		FC6CF6F016DEF37B0098802F /* encryptFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encryptFile.cpp; sourceTree = "<group>"; };
 		FC6CF6F416DEF3890098802F /* encryptFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = encryptFile.h; path = ../source/include/encryptFile.h; sourceTree = "<group>"; };
 		FCCFA67616A933F1001FAE7B /* glWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glWrapper.cpp; sourceTree = "<group>"; };
@@ -1372,6 +1382,11 @@
 		8E3CEEF8152C3775008C7EC1 /* ProjectResources */ = {
 			isa = PBXGroup;
 			children = (
+				BF0CE0EE20D696B800CDA150 /* Alex Brush SIL OFL Font License 1.1.txt */,
+				BF0CE0EB20D696B800CDA150 /* AlexBrush-Regular-OTF.otf */,
+				BF0CE0EA20D696B800CDA150 /* app */,
+				BF0CE0EC20D696B800CDA150 /* assets */,
+				BF0CE0ED20D696B800CDA150 /* start.lua */,
 				3287AAB0174C88B900DF0E35 /* MTLmr3m.ttf */,
 			);
 			name = ProjectResources;
@@ -1958,6 +1973,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					8E0A29DE14D12A6E007E98B3 = {
+						DevelopmentTeam = JEDMRK4NK9;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 8E0A29D914D12A6E007E98B3 /* Build configuration list for PBXProject "SampleProject" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1983,10 +2004,15 @@
 			files = (
 				8E0A29EE14D12A6E007E98B3 /* InfoPlist.strings in Resources */,
 				8E0A29FA14D12A6E007E98B3 /* ViewController_iPhone.xib in Resources */,
+				BF0CE0F320D696B800CDA150 /* Alex Brush SIL OFL Font License 1.1.txt in Resources */,
 				8E0A29FD14D12A6E007E98B3 /* ViewController_iPad.xib in Resources */,
 				B0A50A80153425AE008CCF28 /* Default@2x.png in Resources */,
+				BF0CE0EF20D696B800CDA150 /* app in Resources */,
+				BF0CE0F120D696B800CDA150 /* assets in Resources */,
+				BF0CE0F220D696B800CDA150 /* start.lua in Resources */,
 				35E358E716154D460092EB1E /* icon@2x.png in Resources */,
 				3287AAB1174C88B900DF0E35 /* MTLmr3m.ttf in Resources */,
+				BF0CE0F020D696B800CDA150 /* AlexBrush-Regular-OTF.otf in Resources */,
 				17729FCE17C316F400D4E765 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2305,7 +2331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2314,8 +2340,12 @@
 		80C120D91682F365009C09EC /* Debug Opt */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JEDMRK4NK9;
+				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleProject/SampleProject-Prefix.pch";
@@ -2333,13 +2363,16 @@
 				HEADER_SEARCH_PATHS = "";
 				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../../../../libs/freeType/include\"";
 				INFOPLIST_FILE = "SampleProject/SampleProject-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../curl/ios-dev/lib\"",
 					"\"$(SRCROOT)/../..\"",
 				);
 				New_Setting = "";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Sample Application";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Debug Opt";
@@ -2368,7 +2401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2393,7 +2426,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2404,8 +2437,12 @@
 		8E0A2A1614D12A6E007E98B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JEDMRK4NK9;
+				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleProject/SampleProject-Prefix.pch";
@@ -2426,13 +2463,16 @@
 				HEADER_SEARCH_PATHS = "";
 				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../../../../libs/freeType/include\"";
 				INFOPLIST_FILE = "SampleProject/SampleProject-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../curl/ios-dev/lib\"",
 					"\"$(SRCROOT)/../..\"",
 				);
 				New_Setting = "";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Sample Application";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2440,8 +2480,12 @@
 		8E0A2A1714D12A6E007E98B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JEDMRK4NK9;
+				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2453,13 +2497,16 @@
 				);
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../libs/freeType/include\"";
 				INFOPLIST_FILE = "SampleProject/SampleProject-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../curl/ios-appstore/lib\"",
 					"\"$(SRCROOT)/../..\"",
 				);
 				New_Setting = "";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Sample Application";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

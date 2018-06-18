@@ -4,20 +4,21 @@
     <Version>0.1.0</Version>
     <ProjectFile>itemimage.png.xml</ProjectFile>
     <ProjectFileRelativeDir />
-    <SaveDate>2013-09-25T12:42:45</SaveDate>
-    <EditState>false</EditState>
-    <VisibleImage>false</VisibleImage>
+    <SaveDate>2018-06-13T23:45:05</SaveDate>
+    <Comment />
+    <EditState>true</EditState>
+    <VisibleImage>true</VisibleImage>
     <VisiblePolygon>false</VisiblePolygon>
     <VisibleMask>false</VisibleMask>
     <VisibleBoundBox>false</VisibleBoundBox>
-    <VisibleGrid>false</VisibleGrid>
-    <VisibleProperty>false</VisibleProperty>
+    <VisibleGrid>true</VisibleGrid>
+    <VisibleProperty>true</VisibleProperty>
   </ProjectPropertyModel>
   <ContainerPropertyModel />
   <ImageModel>
     <isAdditive>false</isAdditive>
     <ImgFileSize>50917</ImgFileSize>
-    <ImgFileDate>2013/08/26 12:15:42</ImgFileDate>
+    <ImgFileDate>2018/6/11 23:07:01</ImgFileDate>
     <ImgPathName>itemimage.png</ImgPathName>
     <PriorityOffset>0</PriorityOffset>
     <ImageType>Default</ImageType>

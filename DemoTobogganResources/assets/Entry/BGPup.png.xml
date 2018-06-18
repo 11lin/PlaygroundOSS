@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KLBImageEditor_Plugin id="1a9af20b-aad9-496a-906e-9d8571e8f443">
+  <ProjectPropertyModel>
+    <Version>0.2.0</Version>
+    <ProjectFile>assets/BGPup.png.xml</ProjectFile>
+    <ProjectFileRelativeDir />
+    <SaveDate>2018-06-15T02:03:25</SaveDate>
+    <EditState>false</EditState>
+    <VisibleImage>false</VisibleImage>
+    <VisiblePolygon>false</VisiblePolygon>
+    <VisibleMask>false</VisibleMask>
+    <VisibleBoundBox>false</VisibleBoundBox>
+    <VisibleGrid>false</VisibleGrid>
+    <VisibleProperty>false</VisibleProperty>
+  </ProjectPropertyModel>
+  <ContainerPropertyModel />
+  <ImageModel>
+    <isAdditive>false</isAdditive>
+    <ImgFileSize>607792</ImgFileSize>
+    <ImgFileDate>2017/12/8 14:31:34</ImgFileDate>
+    <ImgPathName>assets/BGPup.png</ImgPathName>
+    <PriorityOffset>0</PriorityOffset>
+    <ImageType>Default</ImageType>
+    <ImageTypeParams />
+    <VerticesClockwise>true</VerticesClockwise>
+    <Center>
+      <X>0</X>
+      <Y>0</Y>
+    </Center>
+    <Width>640</Width>
+    <Height>663</Height>
+    <VertexPostProcessMode>0</VertexPostProcessMode>
+    <BoundingBox>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>640</Width>
+        <Height>663</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>640</Width>
+      <Height>663</Height>
+    </BoundingBox>
+    <Vertices>
+      <PointF>
+        <X>0</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>640</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>640</X>
+        <Y>663</Y>
+      </PointF>
+      <PointF>
+        <X>0</X>
+        <Y>663</Y>
+      </PointF>
+    </Vertices>
+    <Indices>AAECAw==</Indices>
+    <ImgAlphaType>TYPE_ALPHA_8BIT</ImgAlphaType>
+    <MaskCompress>true</MaskCompress>
+    <MaskX>0</MaskX>
+    <MaskY>0</MaskY>
+    <MaskWidth>640</MaskWidth>
+    <MaskHeight>663</MaskHeight>
+    <Mask>//8B//8B//8B//8B//8B//8BeYYB</Mask>
+  </ImageModel>
+</KLBImageEditor_Plugin>

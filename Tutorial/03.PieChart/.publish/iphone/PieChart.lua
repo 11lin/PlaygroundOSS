@@ -1,3 +1,5 @@
+require("start.lua")
+
 function setup()
 	pTPad = UI_TouchPad("callback_TP")
 
@@ -16,6 +18,7 @@ end
 
 function callback_TP(tbl)
 	for idx,item in pairs(tbl) do
+        syslog(item.type.."->"..item.x..","..item.y)
 		if item.type == PAD_ITEM_TAP then
 			if item.y < 200 then
 				local start = 360 * item.x / 950

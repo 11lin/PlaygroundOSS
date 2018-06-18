@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KLBImageEditor_Plugin id="62e398fc-b27c-4a43-9310-bb566da862c2">
+  <ProjectPropertyModel>
+    <Version>0.2.0</Version>
+    <ProjectFile>RabbitHat.png.xml</ProjectFile>
+    <ProjectFileRelativeDir>assets/Battle/</ProjectFileRelativeDir>
+    <SaveDate>2018-06-18T14:50:42</SaveDate>
+    <Comment />
+    <EditState>true</EditState>
+    <VisibleImage>true</VisibleImage>
+    <VisiblePolygon>false</VisiblePolygon>
+    <VisibleMask>false</VisibleMask>
+    <VisibleBoundBox>false</VisibleBoundBox>
+    <VisibleGrid>true</VisibleGrid>
+    <VisibleProperty>true</VisibleProperty>
+  </ProjectPropertyModel>
+  <ContainerPropertyModel />
+  <ImageModel>
+    <isAdditive>false</isAdditive>
+    <ImgFileSize>5247</ImgFileSize>
+    <ImgFileDate>2017/12/4 11:42:26</ImgFileDate>
+    <ImgPathName>assets/Battle/RabbitHat.png</ImgPathName>
+    <PriorityOffset>0</PriorityOffset>
+    <ImageType>Default</ImageType>
+    <ImageTypeParams />
+    <VerticesClockwise>true</VerticesClockwise>
+    <Center>
+      <X>60</X>
+      <Y>81</Y>
+    </Center>
+    <Width>117</Width>
+    <Height>101</Height>
+    <VertexPostProcessMode>0</VertexPostProcessMode>
+    <BoundingBox>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>117</Width>
+        <Height>101</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>117</Width>
+      <Height>101</Height>
+    </BoundingBox>
+    <Vertices>
+      <PointF>
+        <X>0</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>117</X>
+        <Y>0</Y>
+      </PointF>
+      <PointF>
+        <X>117</X>
+        <Y>101</Y>
+      </PointF>
+      <PointF>
+        <X>0</X>
+        <Y>101</Y>
+      </PointF>
+    </Vertices>
+    <Indices>AAECAw==</Indices>
+    <ImgAlphaType>TYPE_ALPHA_8BIT</ImgAlphaType>
+    <MaskCompress>true</MaskCompress>
+    <MaskX>0</MaskX>
+    <MaskY>0</MaskY>
+    <MaskWidth>117</MaskWidth>
+    <MaskHeight>101</MaskHeight>
+    <Mask>LikB</Mask>
+  </ImageModel>
+</KLBImageEditor_Plugin>
