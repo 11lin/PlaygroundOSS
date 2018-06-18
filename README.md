@@ -70,7 +70,13 @@ Toboggan 1.17.3.4 用户界面、打包资源等
  * 子弹有两种类型：
   * 1、连发子弹 
   * 2、发射的时候朝小白兔方向飞行
-  * [视频](http://mouapp.com/) 
+  * [Youtube视频](https://youtu.be/kdawbOblTCU)
+  
 #总结
  * 平常要上班的话，正在开发demo的时间基本上在只有2天左右，有1天时间熟悉引擎。想做完整时间肯定不够，目前个人觉得还可以有玩法有难度^_^,核心代码就600行，开发还算比较顺利没遇到什么大问题。
+ 
 #最后感谢klab提供的游戏引擎
+
+![screenshoot1](https://raw.githubusercontent.com/11lin/PlaygroundOSS/master/DemoRabbit/screenshoot1.jpg)
+![screenshoot2](https://raw.githubusercontent.com/11lin/PlaygroundOSS/master/DemoRabbit/screenshoot2.jpg)
+![screenshoot3](https://raw.githubusercontent.com/11lin/PlaygroundOSS/master/DemoRabbit/screenshoot3.jpg)
