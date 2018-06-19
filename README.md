@@ -1,3 +1,14 @@
+## 游戏玩法
+ - 小白兔目的是吃闪烁的小星星，小白兔只是`鼻子嘴巴部分`是有效碰撞，开始之前可以勾选上显示碰撞点，这样跟清楚碰撞范围。不要让移动的子弹碰到了小白兔鼻子，而且小白兔的生命只有一条
+ - 子弹有两种类型：
+  - 1.连发子弹 
+  - 2.发射的时候朝小白兔方向飞行
+ - [国外Youtube视频](https://youtu.be/kdawbOblTCU)
+ - [国内Youku视频](https://v.youku.com/v_show/id_XMzY3Mjg0MDI0NA==.html?spm=a2h3j.8428770.3416059.1)
+ - [Android安装包下载](https://github.com/11lin/PlaygroundOSS/blob/master/DemoRabbit/GameEngine-android-debug.apk) 
+
+
+
 ## Windows工具：
 Toboggan 1.17.3.4 用户界面、打包资源等
 
@@ -8,11 +19,11 @@ Toboggan 1.17.3.4 用户界面、打包资源等
 
 ### Android工程升级过程中遇到问题：
 
- * com.android.tools.build:gradle:0.6 => 3.1.3
- * gradle.build需要把instrumentTest类改成androidTest
- * 32位so=>支持64位手机:
-  * 在Gradle中的sourceSets结构里添加jniLibs.srcDirs = ['libs']
-  * 在Gradle中添加代码
+ - com.android.tools.build:gradle:0.6 => 3.1.3
+ - gradle.build需要把instrumentTest类改成androidTest
+ - 32位so=>支持64位手机:
+  - 在Gradle中的sourceSets结构里添加jniLibs.srcDirs = ['libs']
+  - 在Gradle中添加代码
 ```javascript
   defaultConfig {
         targetSdkVersion 17
@@ -64,16 +75,9 @@ Toboggan 1.17.3.4 用户界面、打包资源等
  * lua中设置order显示优先级参数必须是uint 否则报Order Problem错误
  * 在编辑里如果图片已经打包进Texture里，在修改图片属性的话，这时候Publish会提示图片在Texture找不到，重启Toboggan编辑即可
  * 在Mac下编辑器Toboggan发布的资源目录.publish都是隐藏的，Tutorial里的.publish也是隐藏的
-
-## 游戏玩法
- * 小白兔目的是吃闪烁的小星星，小白兔的鼻子是碰撞点，开始之前可以勾选上显示碰撞点。不要让移动的子弹碰到了小白兔，小白兔的生命只有一条
- * 子弹有两种类型：
-  * 1、连发子弹 
-  * 2、发射的时候朝小白兔方向飞行
-  * [Youtube视频](https://youtu.be/kdawbOblTCU)
   
 # 总结
- * 平常要上班的话，正在开发demo的时间基本上在只有2天左右，有1天时间熟悉引擎。想做完整时间肯定不够，目前个人觉得还可以有玩法有难度,核心代码就600行，开发还算比较顺利没遇到什么大问题。
+ * 平常要上班的话，正在开发demo的时间基本上在只有2天左右，有1天时间熟悉引擎。想做完整时间肯定不够，目前个人觉得还算比较可以有玩法有难度,核心代码就600行，开发的时候还算比较顺利没遇到什么大问题。
 
 # 最后感谢klab提供的游戏引擎
 
