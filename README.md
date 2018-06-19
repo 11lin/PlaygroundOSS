@@ -5,8 +5,6 @@
    - 2. 发射的时候朝小白兔方向飞行
  - [国外Youtube视频](https://youtu.be/kdawbOblTCU)
  - [国内Youku视频](https://v.youku.com/v_show/id_XMzY3Mjg0MDI0NA==.html?spm=a2h3j.8428770.3416059.1)
- - [Android安装包下载](https://github.com/11lin/PlaygroundOSS/blob/master/DemoRabbit/GameEngine-android-debug.apk) 
-
 
 
 ## Windows工具：
@@ -16,6 +14,7 @@ Toboggan 1.17.3.4 用户界面、打包资源等
 * MacOS 10.13.4
 * Android Studio 3.1.3
 * Gradle 4.4
+* 真机红米4
 
 ### Android工程升级过程中遇到问题：
 
@@ -36,6 +35,8 @@ Toboggan 1.17.3.4 用户界面、打包资源等
 ## iOS开发环境
  * MacOS 10.13.4
  * Xcode 9.3
+ * 模拟器 IPhone 5S
+ * 真机测试设备IPhone 8P、IPhone 5S
 
 ### 编译iOS遇到的问题:
  * 在iOS11中苹果已经禁用函数接口system()，目前PlaygroundOSS引擎引入的lua库在ioslib.c:81行方法os_execute中有使用。
@@ -81,7 +82,8 @@ Toboggan 1.17.3.4 用户界面、打包资源等
  * 在Mac下编辑器Toboggan发布的资源目录.publish都是隐藏的，Tutorial里的.publish也是隐藏的
   
 # 总结
- * 平常要上班的话，正在开发demo的时间基本上在只有2天左右，有1天时间熟悉引擎。想做完整时间肯定不够，目前个人觉得还算比较可以有玩法有难度,核心代码就600行，开发的时候还算比较顺利没遇到什么大问题。
+ * 开发主要在Mac下，Window负责打包资源之后同步到Mac来，主要以640x1136设计分辨率。可能Android部分机型会有适配问题，IPhone大部分机型可以完美适配。
+ * 平常要上班的话，正常开发demo的时间基本上在只有2-3天左右，有1天时间熟悉引擎。想做完整一点时间肯定不够，目前个人觉得还算比较可以有玩法也有难度,核心代码其实600行，开发的时候还算比较顺利没遇到什么大问题。
 
 # 最后感谢klab提供的游戏引擎
 

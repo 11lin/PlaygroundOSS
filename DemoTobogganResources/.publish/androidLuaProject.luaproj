@@ -17,8 +17,8 @@
           <DocumentFolders>
             <XmlDocumentFolder>
               <Documents>
-                <DocumentRef FileName=".\Entry.lua" />
                 <DocumentRef FileName=".\Battle.lua" />
+                <DocumentRef FileName=".\Entry.lua" />
               </Documents>
               <DocumentGroups />
               <DocumentFolders />

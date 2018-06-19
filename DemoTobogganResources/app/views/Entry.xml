@@ -112,18 +112,24 @@
       </UINode>
       <UINode>
         <name>Go</name>
-        <x>360</x>
-        <y>360</y>
+        <x>490</x>
+        <y>510</y>
         <priority>1</priority>
-        <sx>0</sx>
-        <sy>0</sy>
-        <sw>226</sw>
-        <sh>240</sh>
+        <sx>-115</sx>
+        <sy>-115</sy>
+        <sw>230</sw>
+        <sh>230</sh>
         <class>button</class>
         <onclick>onClickGO</onclick>
         <default>assets/Entry/StartButton.png.imag</default>
         <select>assets/Entry/StartButton.png.imag</select>
         <_x0040_Publishable>true</_x0040_Publishable>
+        <_x0040_DesignRectangle xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+          <d4p1:height>230</d4p1:height>
+          <d4p1:width>230</d4p1:width>
+          <d4p1:x>0</d4p1:x>
+          <d4p1:y>0</d4p1:y>
+        </_x0040_DesignRectangle>
         <xscale>1</xscale>
         <yscale>1</yscale>
         <_x0040_CommonAssets xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
@@ -183,21 +189,57 @@
         <rotation>0</rotation>
       </UINode>
       <UINode>
-        <name>Debug</name>
+        <name>lblBox</name>
         <x>100</x>
-        <y>600</y>
+        <y>590</y>
         <priority>8</priority>
         <class>label</class>
-        <text>label</text>
+        <text>Show border</text>
         <fontname></fontname>
-        <fontsize>20</fontsize>
+        <fontsize>30</fontsize>
         <_x0023_color xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">-13421773</_x0023_color>
-        <width>154</width>
-        <height>30</height>
+        <width>188</width>
+        <height>58</height>
         <_x0040_Publishable>true</_x0040_Publishable>
         <xscale>1</xscale>
         <yscale>1</yscale>
         <rotation>0</rotation>
+      </UINode>
+      <UINode>
+        <name>lable</name>
+        <x>350</x>
+        <y>460</y>
+        <priority>8</priority>
+        <class>label</class>
+        <text>Go</text>
+        <fontname></fontname>
+        <fontsize>40</fontsize>
+        <_x0023_color xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">-13421773</_x0023_color>
+        <width>142</width>
+        <height>72</height>
+        <_x0040_Publishable>true</_x0040_Publishable>
+        <xscale>1</xscale>
+        <yscale>1</yscale>
+        <rotation>0</rotation>
+        <_x0023_align>10</_x0023_align>
+      </UINode>
+      <UINode>
+        <name>lable</name>
+        <x>350</x>
+        <y>460</y>
+        <priority>8</priority>
+        <class>label</class>
+        <text>始める</text>
+        <fontname></fontname>
+        <fontsize>40</fontsize>
+        <_x0023_color xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">-13421773</_x0023_color>
+        <width>142</width>
+        <height>72</height>
+        <_x0040_Publishable>true</_x0040_Publishable>
+        <xscale>1</xscale>
+        <yscale>1</yscale>
+        <rotation>0</rotation>
+        <_x0023_align>2</_x0023_align>
       </UINode>
     </sub>
     <width>640</width>

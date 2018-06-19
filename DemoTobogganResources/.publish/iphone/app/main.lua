@@ -233,7 +233,7 @@ Const.GAME_ITEM_RANDOM_RECT = {x=100,y=200,width=440,height=836}
 Const.OUTSIDE_Y = 1336 --超出Y轴不显示
 Const.HERO_REDIUS = 10
 Const.ITEM_SECOND = 1000 --创建道具5秒一个
-Const.ITEM_COUNT = 10
+Const.ITEM_COUNT = 10 --同事存在的道具数量
 -- Const.HERO_REDIUS_ITEM = 38
 Config = {}
 Config.isDebug = false

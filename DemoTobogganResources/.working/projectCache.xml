@@ -2,13 +2,6 @@
 <ResourceWrapperCache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <entries>
     <Entry>
-      <resourcePath>start.lua</resourcePath>
-      <resourceLastModified>0001-01-01T00:00:00</resourceLastModified>
-      <resourceFileSize>0</resourceFileSize>
-      <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
-      <extraXmlFileSize>0</extraXmlFileSize>
-    </Entry>
-    <Entry>
       <id>da4a73c4-a8b8-45aa-acec-d089314001e1</id>
       <resourcePath>assets/Battle/BattleBg.png</resourcePath>
       <resourceLastModified>2016-09-11T20:02:46+08:00</resourceLastModified>
@@ -25,32 +18,25 @@
       <extraXmlFileSize>2066</extraXmlFileSize>
     </Entry>
     <Entry>
-      <resourcePath>app/views/Entry.lua</resourcePath>
-      <resourceLastModified>0001-01-01T00:00:00</resourceLastModified>
-      <resourceFileSize>0</resourceFileSize>
-      <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
-      <extraXmlFileSize>0</extraXmlFileSize>
-    </Entry>
-    <Entry>
       <id>680ed3d8-19af-4493-b0ba-a0dec4349383</id>
       <resourcePath>assets/BattleTexture.xml</resourcePath>
       <resourceLastModified>2018-06-18T18:45:39.7481294+08:00</resourceLastModified>
       <resourceFileSize>6353</resourceFileSize>
-      <extraXmlLastModified>2018-06-18T18:45:39.8105295+08:00</extraXmlLastModified>
+      <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
       <extraXmlFileSize>0</extraXmlFileSize>
     </Entry>
     <Entry>
       <id>293e4e59-1f84-4fb8-b092-a0fe289e0134</id>
       <resourcePath>app/views/Entry.xml</resourcePath>
-      <resourceLastModified>2018-06-18T21:55:28.4788699+08:00</resourceLastModified>
-      <resourceFileSize>781413</resourceFileSize>
-      <extraXmlLastModified>2018-06-18T21:55:28.4948708+08:00</extraXmlLastModified>
+      <resourceLastModified>2018-06-20T00:05:54.4345315+08:00</resourceLastModified>
+      <resourceFileSize>782921</resourceFileSize>
+      <extraXmlLastModified>2018-06-20T00:05:54.4465321+08:00</extraXmlLastModified>
       <extraXmlFileSize>0</extraXmlFileSize>
     </Entry>
     <Entry>
       <id>ffb2fcc1-a931-4283-80e5-2f0b979d35ef</id>
       <resourcePath>assets/EntryTexture.xml</resourcePath>
-      <resourceLastModified>2018-06-18T12:00:56.8383722+08:00</resourceLastModified>
+      <resourceLastModified>2018-06-19T23:42:44.5623281+08:00</resourceLastModified>
       <resourceFileSize>3567</resourceFileSize>
       <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
       <extraXmlFileSize>0</extraXmlFileSize>
@@ -60,7 +46,7 @@
       <resourcePath>app/views/Battle.xml</resourcePath>
       <resourceLastModified>2018-06-18T19:04:15.3707824+08:00</resourceLastModified>
       <resourceFileSize>12312</resourceFileSize>
-      <extraXmlLastModified>2018-06-18T19:04:15.3863825+08:00</extraXmlLastModified>
+      <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
       <extraXmlFileSize>0</extraXmlFileSize>
     </Entry>
     <Entry>
@@ -164,8 +150,8 @@
       <resourcePath>assets/Entry/StartButton.png</resourcePath>
       <resourceLastModified>2017-12-08T14:31:34+08:00</resourceLastModified>
       <resourceFileSize>106505</resourceFileSize>
-      <extraXmlLastModified>2018-06-16T01:30:55.8443318+08:00</extraXmlLastModified>
-      <extraXmlFileSize>2056</extraXmlFileSize>
+      <extraXmlLastModified>2018-06-19T23:42:21.3087734+08:00</extraXmlLastModified>
+      <extraXmlFileSize>2108</extraXmlFileSize>
     </Entry>
     <Entry>
       <id>53cfed95-2fc0-4b1b-b064-3a9d9b23ecd8</id>
@@ -207,14 +193,7 @@
       <extraXmlFileSize>0</extraXmlFileSize>
     </Entry>
     <Entry>
-      <resourcePath>Alex Brush SIL OFL Font License 1.1.txt</resourcePath>
-      <resourceLastModified>0001-01-01T00:00:00</resourceLastModified>
-      <resourceFileSize>0</resourceFileSize>
-      <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
-      <extraXmlFileSize>0</extraXmlFileSize>
-    </Entry>
-    <Entry>
-      <resourcePath>AlexBrush-Regular-OTF.otf</resourcePath>
+      <resourcePath>MTLmr3m.ttf</resourcePath>
       <resourceLastModified>0001-01-01T00:00:00</resourceLastModified>
       <resourceFileSize>0</resourceFileSize>
       <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
@@ -377,6 +356,27 @@
     </Entry>
     <Entry>
       <resourcePath>assets/Sounds/Dream_Fail.mp3</resourcePath>
+      <resourceLastModified>0001-01-01T00:00:00</resourceLastModified>
+      <resourceFileSize>0</resourceFileSize>
+      <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
+      <extraXmlFileSize>0</extraXmlFileSize>
+    </Entry>
+    <Entry>
+      <resourcePath>app/views/Battle.lua</resourcePath>
+      <resourceLastModified>0001-01-01T00:00:00</resourceLastModified>
+      <resourceFileSize>0</resourceFileSize>
+      <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
+      <extraXmlFileSize>0</extraXmlFileSize>
+    </Entry>
+    <Entry>
+      <resourcePath>start.lua</resourcePath>
+      <resourceLastModified>0001-01-01T00:00:00</resourceLastModified>
+      <resourceFileSize>0</resourceFileSize>
+      <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>
+      <extraXmlFileSize>0</extraXmlFileSize>
+    </Entry>
+    <Entry>
+      <resourcePath>app/views/Entry.lua</resourcePath>
       <resourceLastModified>0001-01-01T00:00:00</resourceLastModified>
       <resourceFileSize>0</resourceFileSize>
       <extraXmlLastModified>0001-01-01T00:00:00</extraXmlLastModified>

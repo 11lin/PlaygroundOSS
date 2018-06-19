@@ -4,7 +4,7 @@
     <Version>0.1.0</Version>
     <ProjectFile>EntryTexture.xml</ProjectFile>
     <ProjectFileRelativeDir>assets/</ProjectFileRelativeDir>
-    <SaveDate>2018-06-18T12:00:56</SaveDate>
+    <SaveDate>2018-06-19T23:42:44</SaveDate>
     <EditState>true</EditState>
     <ContainerScale>0.5</ContainerScale>
     <ContainerSnap>8</ContainerSnap>
@@ -79,19 +79,6 @@
     </TextureModel>
     <TextureModel>
       <Pos>
-        <X>656</X>
-        <Y>16</Y>
-      </Pos>
-      <Id>0</Id>
-      <Name>StartButton.png</Name>
-      <IsFlipX>false</IsFlipX>
-      <IsFlipY>false</IsFlipY>
-      <IsSwitchXY>false</IsSwitchXY>
-      <ImgPathName>assets/Entry/StartButton.png</ImgPathName>
-      <ZOrder>0</ZOrder>
-    </TextureModel>
-    <TextureModel>
-      <Pos>
         <X>32</X>
         <Y>992</Y>
       </Pos>
@@ -114,6 +101,19 @@
       <IsFlipY>false</IsFlipY>
       <IsSwitchXY>false</IsSwitchXY>
       <ImgPathName>assets/Entry/CheckboxRound.png</ImgPathName>
+      <ZOrder>0</ZOrder>
+    </TextureModel>
+    <TextureModel>
+      <Pos>
+        <X>680</X>
+        <Y>16</Y>
+      </Pos>
+      <Id>0</Id>
+      <Name>StartButton.png</Name>
+      <IsFlipX>false</IsFlipX>
+      <IsFlipY>false</IsFlipY>
+      <IsSwitchXY>false</IsSwitchXY>
+      <ImgPathName>assets/Entry/StartButton.png</ImgPathName>
       <ZOrder>0</ZOrder>
     </TextureModel>
   </ArrayOfTextureModel>

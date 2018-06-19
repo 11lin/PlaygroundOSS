@@ -14,6 +14,7 @@ SetSingletonClass(ItemManger)
 Octopus_Punch = SND_Open("asset://assets/Sounds/Octopus_Punch")
 Dream_Fail = SND_Open("asset://assets/Sounds/Dream_Fail")
 ----------------------------------------------MainGame---start---------------------------------------
+-- 主游戏入口
 function MainGame:setup(  )
 	self.heroPos= vec2(320,900)
 	self.heroMoveLastPos = vec2(0,0)
@@ -180,14 +181,14 @@ function ItemManger:update( deltaT )
 			table.insert(self.itemCreatePool,v)
 			v:setPosition(vec2(-1000,-1000))
 
-			self.nextTime = MainGame.getInstance().gameTime + Const.ITEM_SECOND
+			-- self.nextTime = MainGame.getInstance().gameTime + Const.ITEM_SECOND
 		end
 	end
 	if MainGame.getInstance().gameTime > self.nextTime then
 		self:createItem()
-		if #self.itemPool < Const.ITEM_COUNT  then
+		-- if #self.itemPool < Const.ITEM_COUNT  then
 			self.nextTime = MainGame.getInstance().gameTime + Const.ITEM_SECOND
-		end
+		-- end
 	end
 end
 function ItemManger:destroy(  )
@@ -279,6 +280,7 @@ end
 ----------------------------------------------Item---end---------------------------------------
 
 ----------------------------------------------BulletManger---start---------------------------------------
+-- 子弹管理类
 function BulletManger:setup()
 	self.bulletGens = {}
 	self.bulletPool = {}
@@ -295,6 +297,7 @@ function BulletManger:setup()
 	-- 	self.bulletItems[i] = Bullet:new("BulletGreen",i*60,-150,math.random(1,10))
 	-- end	
 end
+-- 加载生成器数据
 function BulletManger:loadGeneratorData()
 	self.bulletGens = {}
 
@@ -310,32 +313,32 @@ function BulletManger:loadGeneratorData()
 	angle = 9
 	for i=1,10 do
 		local radian = (2*math.pi/ 360) * ( 90 + angle * i)
-		local x = 100 +  math.sin(radian) 
-		local y = 150 - math.cos(radian)
+		local x =  math.sin(radian) 
+		local y =  -math.cos(radian)
 		local gen = BulletGnerator:new(vec2(x,y),1000,30000,vec2(math.sin(radian)*3,-math.cos(radian)*3))
 		table.insert(self.bulletGens,gen)
 	end
 
 	for i=1,10 do
 		local radian = (2*math.pi/ 360) * ( 90 + angle * i)
-		local x = 100 +  math.sin(radian) 
-		local y = 150 - math.cos(radian)
+		local x =  math.sin(radian) 
+		local y =  - math.cos(radian)
 		local gen = BulletGnerator:new(vec2(x,y),1500,30000,vec2(math.sin(radian)*3,-math.cos(radian)*3))
 		table.insert(self.bulletGens,gen)
 	end
 
 	for i=1,10 do
 		local radian = (2*math.pi/ 360) * (180 + angle * i)
-		local x = 600 + math.sin(radian) 
-		local y = 150 - math.cos(radian)
+		local x = 640 + math.sin(radian) 
+		local y = - math.cos(radian)
 		local gen = BulletGnerator:new(vec2(x,y),2000,30000,vec2(math.sin(radian)*3,-math.cos(radian)*3))
 		table.insert(self.bulletGens,gen)
 	end
 
 	for i=1,10 do
 		local radian = (2*math.pi/ 360) * (180 + angle * i)
-		local x = 600 + math.sin(radian) 
-		local y = 150 - math.cos(radian)
+		local x = 640 + math.sin(radian) 
+		local y = - math.cos(radian)
 		local gen = BulletGnerator:new(vec2(x,y),2500,30000,vec2(math.sin(radian)*3,-math.cos(radian)*3))
 		table.insert(self.bulletGens,gen)
 	end

@@ -1,5 +1,5 @@
 function setup()
-	FONT_load("Georgia","asset://AlexBrush-Regular-OTF.otf")
+	FONT_load("Georgia","asset://MTLmr3m.ttf")
 end
 
 function execute(deltaT)
