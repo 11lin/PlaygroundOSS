@@ -13,7 +13,7 @@ Toboggan 1.17.3.4 用户界面、打包资源等
  * 32位so=>支持64位手机:
   * 在Gradle中的sourceSets结构里添加jniLibs.srcDirs = ['libs']
   * 在Gradle中添加代码
-  * ```javascript
+```javascript
   defaultConfig {
         targetSdkVersion 17
         ndk {
@@ -43,7 +43,7 @@ Toboggan 1.17.3.4 用户界面、打包资源等
 ## 游戏开发相关：
  * 添加Tutoral/27.ActivityIndicator实例代码
  * 游戏设计分辨率640x1136
- * 游戏层级 -10到0是背景 500是主角 600到650是道具层 700到800子弹层 1000到1500是UI层 1500到2000是对话框层
+ * 游戏层级 -10到0是背景层 500是主角层 600到650是道具层 700到800子弹层 1000到1500是UI层 1500到2000是对话框层
  * 场景之间切换的资源管理
  * 游戏中子弹道具对象使用了对象池来管理
 
@@ -73,8 +73,8 @@ Toboggan 1.17.3.4 用户界面、打包资源等
   * [Youtube视频](https://youtu.be/kdawbOblTCU)
   
 # 总结
- * 平常要上班的话，正在开发demo的时间基本上在只有2天左右，有1天时间熟悉引擎。想做完整时间肯定不够，目前个人觉得还可以有玩法有难度^_^,核心代码就600行，开发还算比较顺利没遇到什么大问题。
- 
+ * 平常要上班的话，正在开发demo的时间基本上在只有2天左右，有1天时间熟悉引擎。想做完整时间肯定不够，目前个人觉得还可以有玩法有难度,核心代码就600行，开发还算比较顺利没遇到什么大问题。
+
 # 最后感谢klab提供的游戏引擎
 
 ![screenshoot1](https://raw.githubusercontent.com/11lin/PlaygroundOSS/master/DemoRabbit/screenshoot1.jpg)
