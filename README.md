@@ -1,5 +1,5 @@
 ## 游戏玩法
- - 小白兔目的是吃闪烁的小星星，小白兔只是**鼻子嘴巴部分**是`有效碰撞`，开始之前可以勾选上显示碰撞点，这样跟清楚碰撞范围。不要让移动的子弹碰到了小白兔鼻子，而且小白兔的生命只有一条
+ - 小白兔目的是吃闪烁的小星星，小白兔只是**鼻子嘴巴部分**[rabbit](https://github.com/11lin/PlaygroundOSS/blob/master/DemoRabbit/rabbit.png)是`有效碰撞`，开始之前可以勾选上显示碰撞点，这样更清楚碰撞范围。不要让移动的子弹碰到了小白兔鼻子，而且小白兔的生命只有一条
  - 子弹有两种类型：
    - 1. 连发子弹 
    - 2. 发射的时候朝小白兔方向飞行
@@ -58,7 +58,11 @@ Toboggan 1.17.3.4 用户界面、打包资源等
  * 场景之间切换的资源管理
  * 游戏中子弹道具对象使用了对象池来管理
 
-### Toboggan工程目录DemoTobogganResources
+## 项目工程目录
+  * `iOS` Engine\porting\iOS\Project\SampleProject
+  * `Android` Engine\porting\Android\GameEngine-android 
+  * Toboggan工程目录DemoTobogganResources
+
 ## 游戏工程目录结构
  * `start.lua`
  * `app/main.lua` 游戏入口、常量、class类库
