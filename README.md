@@ -1,8 +1,8 @@
 ## 游戏玩法
- - 小白兔目的是吃闪烁的小星星，小白兔只是<span style="color: red">鼻子嘴巴部分</span>是`有效碰撞`，开始之前可以勾选上显示碰撞点，这样跟清楚碰撞范围。不要让移动的子弹碰到了小白兔鼻子，而且小白兔的生命只有一条
+ - 小白兔目的是吃闪烁的小星星，小白兔只是<font color=red size=20>鼻子嘴巴部分</font>是`有效碰撞`，开始之前可以勾选上显示碰撞点，这样跟清楚碰撞范围。不要让移动的子弹碰到了小白兔鼻子，而且小白兔的生命只有一条
  - 子弹有两种类型：
-  - 1.连发子弹 
-  - 2.发射的时候朝小白兔方向飞行
+   - 1. 连发子弹 
+   - 2. 发射的时候朝小白兔方向飞行
  - [国外Youtube视频](https://youtu.be/kdawbOblTCU)
  - [国内Youku视频](https://v.youku.com/v_show/id_XMzY3Mjg0MDI0NA==.html?spm=a2h3j.8428770.3416059.1)
  - [Android安装包下载](https://github.com/11lin/PlaygroundOSS/blob/master/DemoRabbit/GameEngine-android-debug.apk) 
