@@ -3,7 +3,7 @@
  - 子弹有两种类型：
    - 1. 连发子弹 
    - 2. 发射的时候朝小白兔方向飞行
- - [国外Youtube视频](https://youtu.be/kdawbOblTCU)
+ - [国外Youtube视频](https://youtu.be/1hT_5tIayLo)
  - [国内Youku视频](https://v.youku.com/v_show/id_XMzY3Mjg0MDI0NA==.html?spm=a2h3j.8428770.3416059.1)
 
 
