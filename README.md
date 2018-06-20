@@ -4,7 +4,7 @@
    - 1. 连发子弹 
    - 2. 发射的时候朝小白兔方向飞行
  - [国外Youtube视频](https://youtu.be/1hT_5tIayLo)
- - [国内Youku视频](https://i.youku.com/i/UMTAwODg1MjIw?spm=a2h4v.8841035.uerCenter.5~5!2~5~5~5~1~3!3~A)
+ - [国内Youku视频](https://v.youku.com/v_show/id_XMzY3NDczMDUxMg==.html)
  - 视屏可能会有卡顿情况，手机上很流畅
 
 ## Windows工具：
