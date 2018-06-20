@@ -5,7 +5,7 @@
    - 2. 发射的时候朝小白兔方向飞行
  - [国外Youtube视频](https://youtu.be/1hT_5tIayLo)
  - [国内Youku视频](https://v.youku.com/v_show/id_XMzY3NDczMDUxMg==.html)
- - 视屏可能会有卡顿情况，手机上很流畅
+ - Youtube、Youku视屏都支持高清的，播放的时候可能会出现视屏卡顿情况，手机上还是比较流畅的
 
 ## Windows工具：
 Toboggan 1.17.3.4 用户界面、打包资源等
